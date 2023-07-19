@@ -56,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"double_account.sol": "bank_m"
+			"contracts/double_account.sol": "bank_m"
 		},
 		"evmVersion": "petersburg",
 		"libraries": {},
@@ -67,11 +67,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"double_account.sol": {
-			"keccak256": "0x929a417ffd4e840760a7270dedbfdacd7ad2917391678bb8db881cbaabb5c12f",
+		"contracts/double_account.sol": {
+			"keccak256": "0x73581f3e0e582378ba5308e4f9ee4eb9a4351adf41a208c6d3885c8da2824111",
 			"urls": [
-				"bzz-raw://2ff35bc3df164a170fe7e6621453f97c0318d2cde679ff6f028fb5333e9158ac",
-				"dweb:/ipfs/QmNk48yjLJx5JpYCSAQbFJhLCpnu4zfqwpSRBoEA4EcjpE"
+				"bzz-raw://0883741525c97660b28909cc74617bcdf766857b9d38429ab0d31e4aa58e927d",
+				"dweb:/ipfs/QmVfV5HqPZQFxGeaE1sxbAKDeM3QWSn8v3FZrk4XjHDot3"
 			]
 		}
 	},
