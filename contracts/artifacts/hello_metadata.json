@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.4.20+commit.3155dd80"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_greeting",
+						"type": "string"
+					}
+				],
+				"name": "greeter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hello.sol": "hello"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hello.sol": {
+			"keccak256": "0xc353dce8b75c0a0bb49acf8ba68a863d4ae79f4d91a0e396aa80a4a35fab6350",
+			"urls": [
+				"bzzr://fbdf66775eed52eb8433cff7d0fc12fbc874543cd12c5d3981a631c3dad54c8c"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "Alice",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Bob",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"double_account.sol": "bank_m"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"double_account.sol": {
+			"keccak256": "0x929a417ffd4e840760a7270dedbfdacd7ad2917391678bb8db881cbaabb5c12f",
+			"urls": [
+				"bzz-raw://2ff35bc3df164a170fe7e6621453f97c0318d2cde679ff6f028fb5333e9158ac",
+				"dweb:/ipfs/QmNk48yjLJx5JpYCSAQbFJhLCpnu4zfqwpSRBoEA4EcjpE"
+			]
+		}
+	},
+	"version": 1
+}
