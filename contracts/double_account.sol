@@ -47,4 +47,8 @@ contract bank_m {
         msg.sender.transfer(amount * 1000000000000000000);
         accounts[msg.sender].balance -= amount;
     }
+
+    function fallback() public payable hasAccount {
+        deposit();
+    }
 }

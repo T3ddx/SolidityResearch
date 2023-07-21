@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.13+commit.5b0b510c"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
@@ -33,6 +33,15 @@
 			},
 			{
 				"constant": false,
+				"inputs": [],
+				"name": "fallback",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -58,7 +67,7 @@
 		"compilationTarget": {
 			"contracts/double_account.sol": "bank_m"
 		},
-		"evmVersion": "petersburg",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,
@@ -68,10 +77,10 @@
 	},
 	"sources": {
 		"contracts/double_account.sol": {
-			"keccak256": "0x73581f3e0e582378ba5308e4f9ee4eb9a4351adf41a208c6d3885c8da2824111",
+			"keccak256": "0xddb54d051cf9c055aea9332414e3d7ed0961301607b60e85bc1998f3cd8d224d",
 			"urls": [
-				"bzz-raw://0883741525c97660b28909cc74617bcdf766857b9d38429ab0d31e4aa58e927d",
-				"dweb:/ipfs/QmVfV5HqPZQFxGeaE1sxbAKDeM3QWSn8v3FZrk4XjHDot3"
+				"bzz-raw://f81df4c29172895c5d38ceb2ef3d668541b3b1c2adce8261b081c7ec1223edb0",
+				"dweb:/ipfs/QmZy8ZVJjnymkTXaqKkq5gnyRxMNaXsxzf8jxg8EbykbD5"
 			]
 		}
 	},
