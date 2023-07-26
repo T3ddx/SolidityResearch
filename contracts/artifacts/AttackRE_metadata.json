@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_attacker",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "bankRE",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/attack.sol": "AttackRE"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/attack.sol": {
+			"keccak256": "0x039009f548a47167e2d0d437dadb14826b04d618df1ea5c57aa7b16aa3aeb776",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67b88c9ad3744f6cf356bff0dc2a98829def92299f977b61ce094cb6be0c25bb",
+				"dweb:/ipfs/QmRCg2Qr59Ayj6mBD9MGixv7kWKVYnx4sC1pXcZ5pFKsiz"
+			]
+		}
+	},
+	"version": 1
+}
