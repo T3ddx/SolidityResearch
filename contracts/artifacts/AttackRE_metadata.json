@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_attacker",
+						"name": "bankRE",
 						"type": "address"
 					}
 				],
@@ -24,17 +24,22 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "bankRE",
-						"type": "address"
-					}
-				],
+				"inputs": [],
+				"name": "getEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "sendEther",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -50,9 +55,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/attack.sol": "AttackRE"
+			"contracts/attackRE.sol": "AttackRE"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -64,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/attack.sol": {
-			"keccak256": "0x039009f548a47167e2d0d437dadb14826b04d618df1ea5c57aa7b16aa3aeb776",
+		"contracts/attackRE.sol": {
+			"keccak256": "0xa5e0b8a86e8efc44bb79f180fca568aeabe797b4c1765d850e0f4f3eff66da11",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://67b88c9ad3744f6cf356bff0dc2a98829def92299f977b61ce094cb6be0c25bb",
-				"dweb:/ipfs/QmRCg2Qr59Ayj6mBD9MGixv7kWKVYnx4sC1pXcZ5pFKsiz"
+				"bzz-raw://97d61af59a278cbc67dca773d18b8479057c98c02c63c31db973e5af44691dc6",
+				"dweb:/ipfs/QmW4h4Da5e13XKhCzBNQuMqJxXJ41UUksPt1H476CBr3h6"
 			]
 		}
 	},

@@ -52,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/bankSafe.sol": "BankRE"
+			"contracts/bankSafe.sol": "BankSafe"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -67,11 +67,11 @@
 	},
 	"sources": {
 		"contracts/bankSafe.sol": {
-			"keccak256": "0x3ffdd2d2773575fd17b30d2a1b820bcdcbe24c864aab5545c87f352de4e7e25c",
+			"keccak256": "0xd2929f1a257266e1166e70488de6dc68a24d931c3c7e1229dbba0e070b9e9b0b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9373dc19490c7e33b422a1dce4ac2e8b5bfbc81198389ce74a6f4e631660cc16",
-				"dweb:/ipfs/QmNxbpdV3xpyUDfYzVJuS3pej5Skz5uCuaoa3Gn4VJNuxU"
+				"bzz-raw://39c22833be007c8bb50aed1d3c654b7d5517bb77def3232290c350109161114f",
+				"dweb:/ipfs/QmdQkG9CsCvzVudbHwQdG81LtVgM3tJZN1XP974PVTth4H"
 			]
 		}
 	},
