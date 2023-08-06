@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "attackee",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "receiveEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contract1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "attack_val",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/attackRE_double2.sol": "Attack2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/attackRE_double2.sol": {
+			"keccak256": "0x955bfe24404cf6495af19d8e0f988af6f83c60fdc777875ca7677c187eea3b18",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5016230d1c8a5661e4cf06a38d65ff203e0b700696729f51a515f2e00b1ce4de",
+				"dweb:/ipfs/QmXxfxFjpFPNVQCTEY4ib2RZbZwtoD94oB4ALsNGoXweJL"
+			]
+		}
+	},
+	"version": 1
+}
