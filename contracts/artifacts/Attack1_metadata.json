@@ -30,9 +30,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "attack1",
+				"name": "attack",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -50,19 +50,15 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "sender",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "startAttack",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -100,11 +96,19 @@
 	},
 	"sources": {
 		"contracts/attackRE_double1.sol": {
-			"keccak256": "0xd8c5e9c4a85315a8ba4bf5e59e6e5593b9643fcc17655e615955990365f89695",
+			"keccak256": "0x1cad4c547e0b3f540778b2c21c91255494748ff6a090a7b6474e478ab88f84c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e0eb39a58861c95fe3f39242781f6eb8ee004c46316ed95163c395ee4d142d85",
-				"dweb:/ipfs/QmSUDSdsdKVzeurbUz8tGtxChc48PpJjgPWE7y7ezdErTW"
+				"bzz-raw://1c13b004c251e757b41895f2e459a57625a046ea88e5a685873e636b46263819",
+				"dweb:/ipfs/QmV3aHzuDemMXA1LeaHk3DKxPvS47QWRaAUbZoBepRd65L"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
 			]
 		}
 	},

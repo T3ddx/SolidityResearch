@@ -79,11 +79,11 @@
 	},
 	"sources": {
 		"contracts/attackRE_double2.sol": {
-			"keccak256": "0xe1d2a9cfd6e0bb3d0707db7b8ecb0f3482f2e9ae881f4d2fbab665b8a25abcc0",
+			"keccak256": "0xebcdbfabb17d32d7ad39b194aea255be478a8346604f0f55f5133c89f1b6c4a2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://85bc9b48082ad9655967df6757a96bb81474419c0efa00a20c7599430ece2706",
-				"dweb:/ipfs/QmcsAsnYshoTtLJ3RYnK19cVZum6qmPagNG2A9xFxPpeLx"
+				"bzz-raw://294044a54e44ad62cd295c97c457c73390511b096d0f70baf3feb5144e4dc7b8",
+				"dweb:/ipfs/QmXjAGxTHgHfeuk3v9Mexrz6imUe5mdRGggfpMcE8ELDXY"
 			]
 		}
 	},

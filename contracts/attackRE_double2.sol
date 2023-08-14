@@ -4,6 +4,8 @@ pragma solidity ^ 0.8.15;
 contract Attack2{
     address bank;
     address payable attacker_account;
+    address attacker1;
+    uint256 value;
 
     constructor(address attackee, address _account){
         bank = attackee;
