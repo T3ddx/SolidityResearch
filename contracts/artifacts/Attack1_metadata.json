@@ -96,19 +96,11 @@
 	},
 	"sources": {
 		"contracts/attackRE_double1.sol": {
-			"keccak256": "0x1cad4c547e0b3f540778b2c21c91255494748ff6a090a7b6474e478ab88f84c2",
+			"keccak256": "0x85ccc5029792438d60ab422e8271d90af83e168f74f41392c58ceca1245dd18c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c13b004c251e757b41895f2e459a57625a046ea88e5a685873e636b46263819",
-				"dweb:/ipfs/QmV3aHzuDemMXA1LeaHk3DKxPvS47QWRaAUbZoBepRd65L"
-			]
-		},
-		"hardhat/console.sol": {
-			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
-				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+				"bzz-raw://344562e8f06b7e3c24fc5cf8a889f6dd85b954de531817705de16602dc9308c0",
+				"dweb:/ipfs/QmNzn79uxYTMbfjUNN1WbFSDrNdxsMszymVsHiCj3Pyqfa"
 			]
 		}
 	},
