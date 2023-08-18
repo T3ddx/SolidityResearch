@@ -73,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/bankRE_double.sol": "Bank"
+			"contracts/bankSafe_double.sol": "Bank"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -87,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/bankRE_double.sol": {
-			"keccak256": "0x7e05a7505d1ff887854f1534b5507889780b13a86d10d27bfdd92431a575749a",
+		"contracts/bankSafe_double.sol": {
+			"keccak256": "0xa4dd425d1596f5cf98fa6c02d22e4abd9aebdda67b3e6d73cdf83a30112cfb96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://89e4038561ec4341fa726a022f9726cf91957df0a5c0b284d98571b7a85487b7",
-				"dweb:/ipfs/QmaN9sqq3Pdz5fbFtb696AxfJ9Njg2Gz73o1JUE2PTsgEg"
+				"bzz-raw://25b196a353e642b39f5119ff5de61f607a6597c320cc3ec8c64ef40fb76c7ac7",
+				"dweb:/ipfs/QmZkgpxkVYYqq91XeJMo7rsKfvCzmDhq1mBeN4kGobXGWc"
 			]
 		}
 	},
