@@ -33,10 +33,14 @@ contract Bank {
     }
 
     function withdrawBalance() withdrawAllowed public {
+        //sets balance first w/ temp variable
+        //uint256 temp = balance[msg.sender];
+        //balance[msg.sender] = 0;
+
         // set lock
         disableWithdraw[msg.sender] = true;
         // reentrant calls possible here
-        msg.sender.call{value: balance[msg.sender]}("");
+        msg.sender.call{value: balance[msg.sender]/*temp*/}("");
         // release lock
         disableWithdraw[msg.sender] = false;
         balance[msg.sender] = 0; 
